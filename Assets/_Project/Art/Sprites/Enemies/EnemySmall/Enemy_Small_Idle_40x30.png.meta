@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,20 +112,20 @@ TextureImporter:
       name: Enemy_Small_Idle_40x30_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 29
-        height: 21
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbe66b0799f01ed20800000000000000
-      internalID: 3305940753162071743
+      spriteID: 5f49f75e24327ad4080b724071e6c942
+      internalID: -666333508
       vertices: []
       indices: 
       edges: []
@@ -134,20 +134,20 @@ TextureImporter:
       name: Enemy_Small_Idle_40x30_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 40
         y: 0
-        width: 29
-        height: 21
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 422f63f0aa4f1fb40800000000000000
-      internalID: 5472424033468740132
+      spriteID: aba878db573b31a4eb1925818ffbe2e5
+      internalID: -417061543
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: Enemy_Small_Idle_40x30_2
       rect:
         serializedVersion: 2
-        x: 86
+        x: 80
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2601792ffc0e0ec30800000000000000
-      internalID: 4386753220791701602
+      spriteID: 13bf5c271bbdb47439dc12a932e00ac7
+      internalID: -137870432
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,20 @@ TextureImporter:
       name: Enemy_Small_Idle_40x30_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 120
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f3643871870e3bc0800000000000000
-      internalID: -3801592782805244937
+      spriteID: 5112a4d6c0d7e1f4bb70ac0ab83e1647
+      internalID: -366107823
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":40.0,"y":30.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Enemy_Small_Idle_40x30_0: 3305940753162071743
-      Enemy_Small_Idle_40x30_1: 5472424033468740132
-      Enemy_Small_Idle_40x30_2: 4386753220791701602
-      Enemy_Small_Idle_40x30_3: -3801592782805244937
+      Enemy_Small_Idle_40x30_0: -666333508
+      Enemy_Small_Idle_40x30_1: -417061543
+      Enemy_Small_Idle_40x30_2: -137870432
+      Enemy_Small_Idle_40x30_3: -366107823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

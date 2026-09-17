@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,20 +124,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e8eca38abc2dfc80800000000000000
-      internalID: -8287418559707158304
+      spriteID: 3ca4d9cb254aabf4db6a402689bca0e6
+      internalID: -489323900
       vertices: []
       indices: 
       edges: []
@@ -146,20 +146,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 40
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bf3a338b30c0d060800000000000000
-      internalID: 6976287184634134450
+      spriteID: bfeeec13a28b5204083a47fea99e3ff0
+      internalID: 820832199
       vertices: []
       indices: 
       edges: []
@@ -168,20 +168,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_2
       rect:
         serializedVersion: 2
-        x: 86
+        x: 80
         y: 0
-        width: 29
-        height: 19
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb726d4df702e4380800000000000000
-      internalID: -8985208473153820741
+      spriteID: 7163cbe151e7ec94dab5c879bff2e491
+      internalID: 1427678452
       vertices: []
       indices: 
       edges: []
@@ -190,20 +190,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 120
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac1255452de7c2930800000000000000
-      internalID: 4119807200960258506
+      spriteID: 417a6e3336fe96b46a5566f7fd5c948b
+      internalID: 156395558
       vertices: []
       indices: 
       edges: []
@@ -212,20 +212,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_4
       rect:
         serializedVersion: 2
-        x: 166
+        x: 160
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8524f09e412303120800000000000000
-      internalID: 2391466467524559448
+      spriteID: 5e323d6a930684544a1a23c66204ba1a
+      internalID: -2140160054
       vertices: []
       indices: 
       edges: []
@@ -234,20 +234,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_5
       rect:
         serializedVersion: 2
-        x: 206
+        x: 200
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87a36f2ca60938520800000000000000
-      internalID: 2703162989564279416
+      spriteID: baa77f2e2b69fbd4ba26bfcfde2e678f
+      internalID: -323622585
       vertices: []
       indices: 
       edges: []
@@ -256,20 +256,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_6
       rect:
         serializedVersion: 2
-        x: 246
+        x: 240
         y: 0
-        width: 29
-        height: 19
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a9bb629be06ec4200800000000000000
-      internalID: 165760237216119706
+      spriteID: eb929ebfd76a895429a21b6b96e0e573
+      internalID: 588401728
       vertices: []
       indices: 
       edges: []
@@ -278,20 +278,20 @@ TextureImporter:
       name: Enemy_Small_Move_40x30_7
       rect:
         serializedVersion: 2
-        x: 286
+        x: 280
         y: 0
-        width: 29
-        height: 20
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03fdbe3f80a53a8d0800000000000000
-      internalID: -2836324345814720720
+      spriteID: e4aa6a91df3976744bc5de2a9f438c4a
+      internalID: 532088582
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +308,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":40.0,"y":30.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Enemy_Small_Move_40x30_0: -8287418559707158304
-      Enemy_Small_Move_40x30_1: 6976287184634134450
-      Enemy_Small_Move_40x30_2: -8985208473153820741
-      Enemy_Small_Move_40x30_3: 4119807200960258506
-      Enemy_Small_Move_40x30_4: 2391466467524559448
-      Enemy_Small_Move_40x30_5: 2703162989564279416
-      Enemy_Small_Move_40x30_6: 165760237216119706
-      Enemy_Small_Move_40x30_7: -2836324345814720720
+      Enemy_Small_Move_40x30_0: -489323900
+      Enemy_Small_Move_40x30_1: 820832199
+      Enemy_Small_Move_40x30_2: 1427678452
+      Enemy_Small_Move_40x30_3: 156395558
+      Enemy_Small_Move_40x30_4: -2140160054
+      Enemy_Small_Move_40x30_5: -323622585
+      Enemy_Small_Move_40x30_6: 588401728
+      Enemy_Small_Move_40x30_7: 532088582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

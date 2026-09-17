@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,20 +121,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 29
-        height: 21
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 975d5327a6729bde0800000000000000
-      internalID: -1316978077893012103
+      spriteID: 3e808042b9ce43d40acef0f490268e10
+      internalID: -47552299
       vertices: []
       indices: 
       edges: []
@@ -143,20 +143,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 40
         y: 0
-        width: 30
-        height: 19
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f591821ace0c80450800000000000000
-      internalID: 6055301821548206431
+      spriteID: e3de550e4de331d428e7eb477fe514d7
+      internalID: -172786465
       vertices: []
       indices: 
       edges: []
@@ -165,20 +165,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_2
       rect:
         serializedVersion: 2
-        x: 86
+        x: 80
         y: 0
-        width: 30
-        height: 17
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46e35fe52688fad70800000000000000
-      internalID: 9056607331746659940
+      spriteID: 7bad8b09942e13248962e71e27b06e38
+      internalID: 278261352
       vertices: []
       indices: 
       edges: []
@@ -187,20 +187,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 120
         y: 0
-        width: 16
-        height: 15
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: afd4a6505221b94a0800000000000000
-      internalID: -6585650079885275654
+      spriteID: fa1c2eb5f6f89c14fbf0a2a93643229d
+      internalID: -863047644
       vertices: []
       indices: 
       edges: []
@@ -209,20 +209,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_4
       rect:
         serializedVersion: 2
-        x: 139
+        x: 160
         y: 0
-        width: 17
-        height: 9
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bbc46cc862f51c310800000000000000
-      internalID: 1423523576400989371
+      spriteID: 4bbf699376e541744b408b3cd9d1fb85
+      internalID: 915427882
       vertices: []
       indices: 
       edges: []
@@ -231,42 +231,20 @@ TextureImporter:
       name: Enemy_Small_Death_40x30_5
       rect:
         serializedVersion: 2
-        x: 164
+        x: 200
         y: 0
-        width: 32
-        height: 11
+        width: 40
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 858301b651ec16dd0800000000000000
-      internalID: -2494486127200683944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_Small_Death_40x30_6
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 32
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f938efb86a285420800000000000000
-      internalID: 2618889812700576240
+      spriteID: e12aeb8922ac728469a846f48ffd04c8
+      internalID: -1096029918
       vertices: []
       indices: 
       edges: []
@@ -275,7 +253,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -283,15 +261,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":40.0,"y":30.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Enemy_Small_Death_40x30_0: -1316978077893012103
-      Enemy_Small_Death_40x30_1: 6055301821548206431
-      Enemy_Small_Death_40x30_2: 9056607331746659940
-      Enemy_Small_Death_40x30_3: -6585650079885275654
-      Enemy_Small_Death_40x30_4: 1423523576400989371
-      Enemy_Small_Death_40x30_5: -2494486127200683944
-      Enemy_Small_Death_40x30_6: 2618889812700576240
+      Enemy_Small_Death_40x30_0: -47552299
+      Enemy_Small_Death_40x30_1: -172786465
+      Enemy_Small_Death_40x30_2: 278261352
+      Enemy_Small_Death_40x30_3: -863047644
+      Enemy_Small_Death_40x30_4: 915427882
+      Enemy_Small_Death_40x30_5: -1096029918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

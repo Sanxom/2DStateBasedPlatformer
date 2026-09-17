@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,20 +115,20 @@ TextureImporter:
       name: Enemy_Range_Idle_30x34_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 22
-        height: 31
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 674709b0a9e5a3600800000000000000
-      internalID: 448775128588776566
+      spriteID: 2639ee77769a7804694632962a42ec6d
+      internalID: 462409729
       vertices: []
       indices: 
       edges: []
@@ -137,20 +137,20 @@ TextureImporter:
       name: Enemy_Range_Idle_30x34_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 30
         y: 0
-        width: 22
-        height: 30
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 175bcb8689fb730f0800000000000000
-      internalID: -1137229719574629007
+      spriteID: 868e726eca61ad4469bba8d39b8a31ad
+      internalID: -770961757
       vertices: []
       indices: 
       edges: []
@@ -159,20 +159,20 @@ TextureImporter:
       name: Enemy_Range_Idle_30x34_2
       rect:
         serializedVersion: 2
-        x: 67
+        x: 60
         y: 0
-        width: 22
-        height: 29
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21bcc8d1bb38188c0800000000000000
-      internalID: -3998770154450400494
+      spriteID: 71f4f46cfdf812245ab62a508ab65194
+      internalID: -524697499
       vertices: []
       indices: 
       edges: []
@@ -181,20 +181,20 @@ TextureImporter:
       name: Enemy_Range_Idle_30x34_3
       rect:
         serializedVersion: 2
-        x: 97
+        x: 90
         y: 0
-        width: 22
-        height: 30
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f24e3b8b3243afc0800000000000000
-      internalID: -3484868863148014864
+      spriteID: 1c92fe8f483910741a8ed12fd6a31d97
+      internalID: -328837271
       vertices: []
       indices: 
       edges: []
@@ -203,20 +203,20 @@ TextureImporter:
       name: Enemy_Range_Idle_30x34_4
       rect:
         serializedVersion: 2
-        x: 127
+        x: 120
         y: 0
-        width: 22
-        height: 30
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02b05768c9fed9890800000000000000
-      internalID: -7449534753051178208
+      spriteID: fafee77dd8b0d844da401630d56a142a
+      internalID: -419369566
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -233,13 +233,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Enemy_Range_Idle_30x34_0: 448775128588776566
-      Enemy_Range_Idle_30x34_1: -1137229719574629007
-      Enemy_Range_Idle_30x34_2: -3998770154450400494
-      Enemy_Range_Idle_30x34_3: -3484868863148014864
-      Enemy_Range_Idle_30x34_4: -7449534753051178208
+      Enemy_Range_Idle_30x34_0: 462409729
+      Enemy_Range_Idle_30x34_1: -770961757
+      Enemy_Range_Idle_30x34_2: -524697499
+      Enemy_Range_Idle_30x34_3: -328837271
+      Enemy_Range_Idle_30x34_4: -419369566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

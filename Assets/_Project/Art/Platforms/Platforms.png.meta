@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,19 +119,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 65
-        height: 17
+        y: 64
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87f0f6ebe7f240290800000000000000
-      internalID: -7925157222857896072
+      spriteID: 1cd10c3a9dcecdc43973e8bc41250223
+      internalID: -436385857
       vertices: []
       indices: 
       edges: []
@@ -141,19 +141,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
-        width: 49
-        height: 18
+        y: 32
+        width: 48
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2d5b206dfc56e3f0800000000000000
-      internalID: -871907234539676369
+      spriteID: 5e9319541b7d3dc4797504cccc65444d
+      internalID: -669367465
       vertices: []
       indices: 
       edges: []
@@ -162,20 +162,20 @@ TextureImporter:
       name: Platforms_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 47
-        width: 65
-        height: 12
+        x: 64
+        y: 48
+        width: 64
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25786c872a3b1c000800000000000000
-      internalID: 54522180897507154
+      spriteID: d80fca5bd641b594a83a3dc4314cbaa9
+      internalID: 1087841653
       vertices: []
       indices: 
       edges: []
@@ -184,20 +184,20 @@ TextureImporter:
       name: Platforms_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 31
-        width: 49
-        height: 12
+        x: 80
+        y: 32
+        width: 48
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d41bdd73fbba5d360800000000000000
-      internalID: 7193844817558614349
+      spriteID: c8194b53bb5c4f048bc2aa3a59c22b5e
+      internalID: -1619659662
       vertices: []
       indices: 
       edges: []
@@ -208,18 +208,18 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 17
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b644ac5d1f6355c0800000000000000
-      internalID: -4227913453271759177
+      spriteID: a71c916a8309615489398ec4aa8c52f1
+      internalID: 903363320
       vertices: []
       indices: 
       edges: []
@@ -228,20 +228,20 @@ TextureImporter:
       name: Platforms_5
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
-        width: 33
-        height: 12
+        x: 96
+        y: 16
+        width: 32
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4357743386d8a85a0800000000000000
-      internalID: -6518242031988935372
+      spriteID: 377a8b0bdc4fcfa4299d1f10f891966b
+      internalID: 72129743
       vertices: []
       indices: 
       edges: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -258,14 +258,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Platforms_0: -7925157222857896072
-      Platforms_1: -871907234539676369
-      Platforms_2: 54522180897507154
-      Platforms_3: 7193844817558614349
-      Platforms_4: -4227913453271759177
-      Platforms_5: -6518242031988935372
+      Platforms_0: -436385857
+      Platforms_1: -669367465
+      Platforms_2: 1087841653
+      Platforms_3: -1619659662
+      Platforms_4: 903363320
+      Platforms_5: 72129743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

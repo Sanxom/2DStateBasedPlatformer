@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,20 +118,20 @@ TextureImporter:
       name: Player_Climb_30x34_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 14
+        width: 30
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e34720fe1b9997fe0800000000000000
-      internalID: -1190751636964608962
+      spriteID: 3a2e63888181f774fa2f8fa88e3a26c3
+      internalID: -335275356
       vertices: []
       indices: 
       edges: []
@@ -140,20 +140,20 @@ TextureImporter:
       name: Player_Climb_30x34_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 30
         y: 0
-        width: 14
+        width: 30
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ee7ee6b1e7c4bc80800000000000000
-      internalID: -8307795640341070108
+      spriteID: 6b6c11cf472cab94dae28743df31c0b6
+      internalID: -2051289634
       vertices: []
       indices: 
       edges: []
@@ -162,20 +162,20 @@ TextureImporter:
       name: Player_Climb_30x34_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1
-        width: 14
-        height: 33
+        x: 60
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 370f3ada26ebb0ba0800000000000000
-      internalID: -6121589937450782605
+      spriteID: fa5adf6be07487b47b29b9adc0492e03
+      internalID: 2045591722
       vertices: []
       indices: 
       edges: []
@@ -184,20 +184,20 @@ TextureImporter:
       name: Player_Climb_30x34_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 90
         y: 0
-        width: 14
+        width: 30
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f811cfeedb0e064d0800000000000000
-      internalID: -3143265433541668465
+      spriteID: 83a0e52ac7443d849a7cc1b00efbe25d
+      internalID: 1440607929
       vertices: []
       indices: 
       edges: []
@@ -206,20 +206,20 @@ TextureImporter:
       name: Player_Climb_30x34_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 0
-        width: 14
+        width: 30
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbcf3863a62fe5e80800000000000000
-      internalID: -8187840534517908291
+      spriteID: e119c7db4f82c2f4897012ff1ae29c94
+      internalID: -1591246453
       vertices: []
       indices: 
       edges: []
@@ -228,20 +228,20 @@ TextureImporter:
       name: Player_Climb_30x34_5
       rect:
         serializedVersion: 2
-        x: 158
-        y: 1
-        width: 14
-        height: 33
+        x: 150
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cb4b5d316f9e59e0800000000000000
-      internalID: -1630690775071503420
+      spriteID: ea506e488fbdd244ea360167f3158d17
+      internalID: -23187801
       vertices: []
       indices: 
       edges: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -258,14 +258,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Climb_30x34_0: -1190751636964608962
-      Player_Climb_30x34_1: -8307795640341070108
-      Player_Climb_30x34_2: -6121589937450782605
-      Player_Climb_30x34_3: -3143265433541668465
-      Player_Climb_30x34_4: -8187840534517908291
-      Player_Climb_30x34_5: -1630690775071503420
+      Player_Climb_30x34_0: -335275356
+      Player_Climb_30x34_1: -2051289634
+      Player_Climb_30x34_2: 2045591722
+      Player_Climb_30x34_3: 1440607929
+      Player_Climb_30x34_4: -1591246453
+      Player_Climb_30x34_5: -23187801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

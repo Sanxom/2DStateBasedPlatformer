@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,19 +131,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 92
-        width: 14
-        height: 13
+        y: 90
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 978c0c46d7f1853f0800000000000000
-      internalID: -911944301120796551
+      spriteID: 4baf54ed62700dd47a86159de8b9c68c
+      internalID: 1501829527
       vertices: []
       indices: 
       edges: []
@@ -152,20 +152,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 6
-        width: 38
-        height: 101
+        x: 22
+        y: 90
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c6b4fabee1a7d9f0800000000000000
-      internalID: -443707991561816380
+      spriteID: 53104446bc2208049b1976512440060a
+      internalID: 1947237965
       vertices: []
       indices: 
       edges: []
@@ -174,20 +174,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 73
-        width: 19
-        height: 15
+        x: 44
+        y: 90
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4dd517f8a2274e3b0800000000000000
-      internalID: -5484132919109657132
+      spriteID: b4e081785bf6aac4ca7735a870ace1aa
+      internalID: -1943089279
       vertices: []
       indices: 
       edges: []
@@ -196,20 +196,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_3
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 72
-        width: 6
-        height: 6
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 345f19c85956a2fb0800000000000000
-      internalID: -4671809970460560061
+      spriteID: dcc673e834b215048a7fd6ac811e9733
+      internalID: 134626458
       vertices: []
       indices: 
       edges: []
@@ -218,20 +218,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 58
-        width: 19
-        height: 9
+        x: 22
+        y: 72
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8de1bcf5a0352790800000000000000
-      internalID: -7555579310376882805
+      spriteID: 8dafdf868fa39e74bb13e91f759ccb30
+      internalID: 1990017448
       vertices: []
       indices: 
       edges: []
@@ -240,20 +240,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 41
-        width: 11
-        height: 7
+        x: 44
+        y: 72
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c36c106a60f763240800000000000000
-      internalID: 4771140521777284668
+      spriteID: afa07d1591694ae45b6ec83e831231ed
+      internalID: 1628552682
       vertices: []
       indices: 
       edges: []
@@ -263,19 +263,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 23
-        width: 6
-        height: 7
+        y: 54
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebbbf76714892a4f0800000000000000
-      internalID: -818924775299630146
+      spriteID: 10755d4a7ab98954bb8e20b79fc43174
+      internalID: -2104586820
       vertices: []
       indices: 
       edges: []
@@ -284,20 +284,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_7
       rect:
         serializedVersion: 2
-        x: 21
-        y: 22
-        width: 9
-        height: 9
+        x: 22
+        y: 54
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: feb811d33208e6510800000000000000
-      internalID: 1544312611071429615
+      spriteID: 560eafd24ee36cc44bb361ee93e61f55
+      internalID: 1062670472
       vertices: []
       indices: 
       edges: []
@@ -306,20 +306,20 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 5
-        height: 7
+        x: 44
+        y: 54
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c2601d4248934e10800000000000000
-      internalID: 2180754055105635010
+      spriteID: be75cc58b2918c5499580260feb5b72f
+      internalID: -937436570
       vertices: []
       indices: 
       edges: []
@@ -328,20 +328,196 @@ TextureImporter:
       name: All_Shooting_Effects_22x18_9
       rect:
         serializedVersion: 2
-        x: 21
-        y: 4
-        width: 7
-        height: 9
+        x: 0
+        y: 36
+        width: 22
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 438edc1318a50c530800000000000000
-      internalID: 3873195190471485492
+      spriteID: 4e11d80605bdbb64db1683d04df4c6a7
+      internalID: -1946770975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 36
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589315611e2f609419569c32dfcaaa1c
+      internalID: 854138496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 36
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddc20bf02f372344a31b9e47f24e21e
+      internalID: 816505753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74fd96170b66e64aa90fbcba29e6857
+      internalID: -116162720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 18
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99edb0fa695f8d14a8070d943bd4cfb5
+      internalID: -1235039318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 18
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e790c62c649044975cbd3060e7217
+      internalID: -1180917992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e44564a48a9ff4f9caf65371bd2024
+      internalID: -1834340790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ee0c7773c746c4085bb9a431387cb4
+      internalID: 1267684105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All_Shooting_Effects_22x18_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d34837472b38c9418859c8337758588
+      internalID: -162427715
       vertices: []
       indices: 
       edges: []
@@ -350,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -358,18 +534,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":22.0,"y":18.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      All_Shooting_Effects_22x18_0: -911944301120796551
-      All_Shooting_Effects_22x18_1: -443707991561816380
-      All_Shooting_Effects_22x18_2: -5484132919109657132
-      All_Shooting_Effects_22x18_3: -4671809970460560061
-      All_Shooting_Effects_22x18_4: -7555579310376882805
-      All_Shooting_Effects_22x18_5: 4771140521777284668
-      All_Shooting_Effects_22x18_6: -818924775299630146
-      All_Shooting_Effects_22x18_7: 1544312611071429615
-      All_Shooting_Effects_22x18_8: 2180754055105635010
-      All_Shooting_Effects_22x18_9: 3873195190471485492
+      All_Shooting_Effects_22x18_0: 1501829527
+      All_Shooting_Effects_22x18_1: 1947237965
+      All_Shooting_Effects_22x18_10: 854138496
+      All_Shooting_Effects_22x18_11: 816505753
+      All_Shooting_Effects_22x18_12: -116162720
+      All_Shooting_Effects_22x18_13: -1235039318
+      All_Shooting_Effects_22x18_14: -1180917992
+      All_Shooting_Effects_22x18_15: -1834340790
+      All_Shooting_Effects_22x18_16: 1267684105
+      All_Shooting_Effects_22x18_17: -162427715
+      All_Shooting_Effects_22x18_2: -1943089279
+      All_Shooting_Effects_22x18_3: 134626458
+      All_Shooting_Effects_22x18_4: 1990017448
+      All_Shooting_Effects_22x18_5: 1628552682
+      All_Shooting_Effects_22x18_6: -2104586820
+      All_Shooting_Effects_22x18_7: 1062670472
+      All_Shooting_Effects_22x18_8: -937436570
+      All_Shooting_Effects_22x18_9: -1946770975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

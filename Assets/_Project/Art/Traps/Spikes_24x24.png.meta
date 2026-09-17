@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,20 +112,20 @@ TextureImporter:
       name: Spikes_24x24_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 57
-        height: 6
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21f1d85f50a64fac0800000000000000
-      internalID: -3822313609903661294
+      spriteID: 2a9b99008afbf9242865a4813ec6ee62
+      internalID: -734952917
       vertices: []
       indices: 
       edges: []
@@ -134,20 +134,20 @@ TextureImporter:
       name: Spikes_24x24_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 24
         y: 0
-        width: 9
-        height: 5
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ae0d08ead04e903a0800000000000000
-      internalID: -6698572223323516694
+      spriteID: 1518c8d507f43b64ba2dcc6f6c2a635b
+      internalID: -2090382212
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: Spikes_24x24_2
       rect:
         serializedVersion: 2
-        x: 104
+        x: 48
         y: 0
-        width: 9
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d68ad9569f03cb920800000000000000
-      internalID: 3007332498886469741
+      spriteID: 2472e14dc932de0429f45b6ad607e89f
+      internalID: -1321911423
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,64 @@ TextureImporter:
       name: Spikes_24x24_3
       rect:
         serializedVersion: 2
-        x: 129
+        x: 72
         y: 0
-        width: 7
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cab6627c2c1b59240800000000000000
-      internalID: 4797936428156087212
+      spriteID: a008560abef61ec4e8cb7a7390df120d
+      internalID: 284282390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spikes_24x24_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c32c10b0bf704e89cb12b85149f02
+      internalID: 1325382196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spikes_24x24_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3438fa33c49c84e8d6d7e2b352dd8c
+      internalID: -1686013626
       vertices: []
       indices: 
       edges: []
@@ -200,7 +244,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +252,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Spikes_24x24_0: -3822313609903661294
-      Spikes_24x24_1: -6698572223323516694
-      Spikes_24x24_2: 3007332498886469741
-      Spikes_24x24_3: 4797936428156087212
+      Spikes_24x24_0: -734952917
+      Spikes_24x24_1: -2090382212
+      Spikes_24x24_2: -1321911423
+      Spikes_24x24_3: 284282390
+      Spikes_24x24_4: 1325382196
+      Spikes_24x24_5: -1686013626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

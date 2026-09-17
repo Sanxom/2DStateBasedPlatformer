@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,20 +154,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 22
-        height: 31
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74a55468400ce9dd0800000000000000
-      internalID: -2477331619342099897
+      spriteID: 78b4c10eac7531a4fba1963920b97e43
+      internalID: 938889208
       vertices: []
       indices: 
       edges: []
@@ -176,20 +176,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 30
         y: 0
-        width: 19
-        height: 30
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 774c131156fe43a50800000000000000
-      internalID: 6500083379561677943
+      spriteID: ec9b6b3b23d5f4d45b34759b5368e645
+      internalID: -1879043464
       vertices: []
       indices: 
       edges: []
@@ -198,20 +198,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_2
       rect:
         serializedVersion: 2
-        x: 67
+        x: 60
         y: 0
-        width: 15
-        height: 28
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef279b3ad64dbbf80800000000000000
-      internalID: -8089638738277600514
+      spriteID: 4af6fdf9cd03c8b4e93a292d7b875db2
+      internalID: 1341106761
       vertices: []
       indices: 
       edges: []
@@ -220,20 +220,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_3
       rect:
         serializedVersion: 2
-        x: 97
+        x: 90
         y: 0
-        width: 15
-        height: 25
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6bb3609cd32b25be0800000000000000
-      internalID: -1489932548270834762
+      spriteID: 37541dddeda0dd04d9178d44ee0a873e
+      internalID: 658976550
       vertices: []
       indices: 
       edges: []
@@ -242,20 +242,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 8
-        width: 9
-        height: 11
+        x: 120
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e10a1d8dc4cae0810800000000000000
-      internalID: 1733512352639328286
+      spriteID: 16f8c09930ebd2543b22728fb5d10056
+      internalID: 942852410
       vertices: []
       indices: 
       edges: []
@@ -264,20 +264,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_5
       rect:
         serializedVersion: 2
-        x: 127
+        x: 150
         y: 0
-        width: 14
-        height: 17
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00f9de4219cb9ef30800000000000000
-      internalID: 4605419425538875136
+      spriteID: e73677ef235dc8349a3fa4aa0c935a08
+      internalID: 844178505
       vertices: []
       indices: 
       edges: []
@@ -286,20 +286,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_6
       rect:
         serializedVersion: 2
-        x: 133
-        y: 14
-        width: 10
-        height: 10
+        x: 180
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d26865688687dbe20800000000000000
-      internalID: 3367980486668748333
+      spriteID: a178b33e53a0f2746a8d67fac63e79eb
+      internalID: 1534421909
       vertices: []
       indices: 
       edges: []
@@ -308,20 +308,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_7
       rect:
         serializedVersion: 2
-        x: 155
-        y: 5
-        width: 9
-        height: 12
+        x: 210
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 958e0a12d0dfd3320800000000000000
-      internalID: 2539463997747423321
+      spriteID: dc0f2808270abe545ace7588222bb055
+      internalID: 1268713104
       vertices: []
       indices: 
       edges: []
@@ -330,20 +330,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_8
       rect:
         serializedVersion: 2
-        x: 164
-        y: 11
-        width: 10
-        height: 11
+        x: 240
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba9636cfb72cafd80800000000000000
-      internalID: -8216040732412909141
+      spriteID: 91a58198fd137b342995eeb94fd05af9
+      internalID: 1596592180
       vertices: []
       indices: 
       edges: []
@@ -352,20 +352,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_9
       rect:
         serializedVersion: 2
-        x: 185
-        y: 2
-        width: 10
-        height: 13
+        x: 270
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a4fc88079dfda3c0800000000000000
-      internalID: -4346539240217316183
+      spriteID: cd123a5f3fa19e54696d15ed06054490
+      internalID: 172447329
       vertices: []
       indices: 
       edges: []
@@ -374,20 +374,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_10
       rect:
         serializedVersion: 2
-        x: 194
-        y: 9
-        width: 9
-        height: 10
+        x: 300
+        y: 0
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97226bee428c30c60800000000000000
-      internalID: 7783284641975640697
+      spriteID: c9bcec50a556d2d4d993ea9643e2e219
+      internalID: -206964493
       vertices: []
       indices: 
       edges: []
@@ -396,20 +396,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_11
       rect:
         serializedVersion: 2
-        x: 157
+        x: 330
         y: 0
-        width: 14
-        height: 12
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9a84895111094ae0800000000000000
-      internalID: -1564718221506606434
+      spriteID: b1913655485547e49a3140fa8c15eff3
+      internalID: -1069482762
       vertices: []
       indices: 
       edges: []
@@ -418,20 +418,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_12
       rect:
         serializedVersion: 2
-        x: 187
+        x: 360
         y: 0
-        width: 16
-        height: 10
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87499ed948c0e6d60800000000000000
-      internalID: 7885253761296864376
+      spriteID: 2beaa45d9324d0f4db3948eff1815e80
+      internalID: -1742052419
       vertices: []
       indices: 
       edges: []
@@ -440,108 +440,20 @@ TextureImporter:
       name: Enemy_Range_Death_30x34_13
       rect:
         serializedVersion: 2
-        x: 215
+        x: 390
         y: 0
-        width: 18
-        height: 11
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f21ab4fc6909f3b40800000000000000
-      internalID: 5422211453774700847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_Range_Death_30x34_14
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 5
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1dbab7bd89172cf0800000000000000
-      internalID: -277224755596444389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_Range_Death_30x34_15
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 0
-        width: 18
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 627c489710240b200800000000000000
-      internalID: 193727358078076710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_Range_Death_30x34_16
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 0
-        width: 18
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80faab6bdf2de1eb0800000000000000
-      internalID: -4747124970067677432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_Range_Death_30x34_17
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 0
-        width: 106
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf8e2e6105a4d7ba0800000000000000
-      internalID: -6089629413293233924
+      spriteID: 36b95e0c0ef60d74faf2d3ab328455af
+      internalID: -5240793
       vertices: []
       indices: 
       edges: []
@@ -550,7 +462,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -558,26 +470,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Enemy_Range_Death_30x34_0: -2477331619342099897
-      Enemy_Range_Death_30x34_1: 6500083379561677943
-      Enemy_Range_Death_30x34_10: 7783284641975640697
-      Enemy_Range_Death_30x34_11: -1564718221506606434
-      Enemy_Range_Death_30x34_12: 7885253761296864376
-      Enemy_Range_Death_30x34_13: 5422211453774700847
-      Enemy_Range_Death_30x34_14: -277224755596444389
-      Enemy_Range_Death_30x34_15: 193727358078076710
-      Enemy_Range_Death_30x34_16: -4747124970067677432
-      Enemy_Range_Death_30x34_17: -6089629413293233924
-      Enemy_Range_Death_30x34_2: -8089638738277600514
-      Enemy_Range_Death_30x34_3: -1489932548270834762
-      Enemy_Range_Death_30x34_4: 1733512352639328286
-      Enemy_Range_Death_30x34_5: 4605419425538875136
-      Enemy_Range_Death_30x34_6: 3367980486668748333
-      Enemy_Range_Death_30x34_7: 2539463997747423321
-      Enemy_Range_Death_30x34_8: -8216040732412909141
-      Enemy_Range_Death_30x34_9: -4346539240217316183
+      Enemy_Range_Death_30x34_0: 938889208
+      Enemy_Range_Death_30x34_1: -1879043464
+      Enemy_Range_Death_30x34_10: -206964493
+      Enemy_Range_Death_30x34_11: -1069482762
+      Enemy_Range_Death_30x34_12: -1742052419
+      Enemy_Range_Death_30x34_13: -5240793
+      Enemy_Range_Death_30x34_2: 1341106761
+      Enemy_Range_Death_30x34_3: 658976550
+      Enemy_Range_Death_30x34_4: 942852410
+      Enemy_Range_Death_30x34_5: 844178505
+      Enemy_Range_Death_30x34_6: 1534421909
+      Enemy_Range_Death_30x34_7: 1268713104
+      Enemy_Range_Death_30x34_8: 1596592180
+      Enemy_Range_Death_30x34_9: 172447329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

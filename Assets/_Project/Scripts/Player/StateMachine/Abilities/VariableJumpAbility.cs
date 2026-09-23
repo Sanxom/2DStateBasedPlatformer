@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -108,7 +107,9 @@ public class VariableJumpAbility : BaseAbility
 
     private void TryToJump(InputAction.CallbackContext context)
     {
-        if (!isPermitted) return;
+        if (!isPermitted
+            || linkedStateMachine.currentState == PlayerStates.State.Dash
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) return;
 
         if (linkedStateMachine.currentState == PlayerStates.State.Climb)
         {

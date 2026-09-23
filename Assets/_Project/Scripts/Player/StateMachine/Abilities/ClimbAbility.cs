@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -83,7 +82,10 @@ public class ClimbAbility : BaseAbility
 
     private void TryToClimb(InputAction.CallbackContext context)
     {
-        if (!isPermitted) return;
+        if (!isPermitted
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) 
+            return;
+
         linkedInput.verticalInput = climbActionRef.action.ReadValue<float>(); // This is here because the value isn't updated before this function, even with Script Execution Order set
         if (linkedPhysics.isGrounded && linkedInput.verticalInput < 0f)
         {

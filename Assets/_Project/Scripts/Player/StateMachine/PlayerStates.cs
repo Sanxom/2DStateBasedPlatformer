@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using UnityEngine;
-
 public class PlayerStates
 {
     public enum State
@@ -14,6 +11,8 @@ public class PlayerStates
         Dash,
         Crouch,
         Climb,
+        Knockback,
+        Dead,
         None
     }
 }

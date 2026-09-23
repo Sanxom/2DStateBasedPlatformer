@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PhysicsControl : MonoBehaviour
@@ -39,6 +38,9 @@ public class PhysicsControl : MonoBehaviour
     [Header("Dash")]
     public bool hasDashReset;
     private float gravityDefault;
+
+    [Header("Jump")]
+    public bool isInTheAir;
 
     [Header("CoyoteTime")]
     public float coyoteTimer;

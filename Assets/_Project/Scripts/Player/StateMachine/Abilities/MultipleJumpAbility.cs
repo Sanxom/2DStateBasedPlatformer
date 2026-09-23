@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,7 +12,6 @@ public class MultipleJumpAbility :JumpAbility
     private float startMinAirTime;
     private int jumpParameterID;
     private int ySpeedParameterID;
-    private bool isInTheAir;
 
     private const string JUMP_ANIM_PARAMETER_NAME = "jump";
     private const string Y_SPEED_ANIM_PARAMETER_NAME = "ySpeed";
@@ -45,7 +43,7 @@ public class MultipleJumpAbility :JumpAbility
 
         if (linkedPhysics.isGrounded && minAirTime < 0)
         {
-            isInTheAir = false;
+            linkedPhysics.isInTheAir = false;
             numJumps = maxNumJumps;
             if (linkedInput.horizontalInput != 0f)
                 linkedStateMachine.ChangeState(PlayerStates.State.Run);
@@ -56,11 +54,12 @@ public class MultipleJumpAbility :JumpAbility
 
         if (!linkedPhysics.isGrounded && linkedPhysics.isWallDetectedUpper && linkedPhysics.rb.linearVelocityY <= 0f)
         {
-            isInTheAir = false;
+            linkedPhysics.isInTheAir = false;
             numJumps = maxNumJumps;
             linkedStateMachine.ChangeState(PlayerStates.State.WallSlide);
             return;
         }
+
         player.Flip();
     }
 
@@ -92,13 +91,15 @@ public class MultipleJumpAbility :JumpAbility
 
     private void TryToJump(InputAction.CallbackContext context)
     {
-        if (!isPermitted) return;
-        if (linkedStateMachine.currentState == PlayerStates.State.Dash) return;
+        if (!isPermitted 
+            || linkedStateMachine.currentState == PlayerStates.State.Dash
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) 
+            return;
 
         if (linkedStateMachine.currentState == PlayerStates.State.Climb)
         {
             linkedStateMachine.ChangeState(PlayerStates.State.Jump);
-            isInTheAir = true;
+            linkedPhysics.isInTheAir = true;
             numJumps = maxNumJumps;
             canActivateAdditionalJumps = true;
             UseOneJump(airSpeed * linkedInput.horizontalInput, 0f);
@@ -107,11 +108,11 @@ public class MultipleJumpAbility :JumpAbility
 
         if (linkedPhysics.coyoteTimer > 0f)
         {
-            if (isInTheAir) return;
+            if (linkedPhysics.isInTheAir) return;
             if (!CanJumpFromCrouch()) return;
 
             linkedStateMachine.ChangeState(PlayerStates.State.Jump);
-            isInTheAir = true;
+            linkedPhysics.isInTheAir = true;
             numJumps = maxNumJumps;
             canActivateAdditionalJumps = true;
             UseOneJump(airSpeed * linkedInput.horizontalInput, jumpForce);
@@ -122,7 +123,7 @@ public class MultipleJumpAbility :JumpAbility
         {
             if (!multiJumpPermitted) return;
 
-            isInTheAir = true;
+            linkedPhysics.isInTheAir = true;
             UseOneJump(airSpeed * linkedInput.horizontalInput, jumpForce);
         }
         else

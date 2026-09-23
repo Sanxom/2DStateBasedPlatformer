@@ -74,7 +74,9 @@ public class WallJumpAbility : JumpAbility
 
     private void TryToWallJump(InputAction.CallbackContext context)
     {
-        if (!isPermitted) return;
+        if (!isPermitted
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) 
+            return;
 
         if (EvalWallJumpConditions())
         {

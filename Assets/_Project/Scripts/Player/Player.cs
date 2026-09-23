@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,6 +6,7 @@ public class Player : MonoBehaviour
     public StateMachine stateMachine;
     public PhysicsControl physicsControl;
     public Animator animator;
+    public PlayerStats playerStats;
     public bool isFacingRight = true;
 
     private BaseAbility[] playerAbilities;

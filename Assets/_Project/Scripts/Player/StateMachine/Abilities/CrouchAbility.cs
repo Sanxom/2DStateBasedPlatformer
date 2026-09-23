@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -38,6 +37,7 @@ public class CrouchAbility : BaseAbility
     public override void EnterAbility()
     {
         linkedPhysics.EnableCrouchCollider();
+        player.playerStats.EnableStatsCrouchCollider();
     }
 
     public override void ProcessAbility()
@@ -69,6 +69,7 @@ public class CrouchAbility : BaseAbility
     {
         shouldStop = false;
         linkedPhysics.EnableStandCollider();
+        player.playerStats.EnableStatsStandCollider();
     }
 
     private void TryToCrouch(InputAction.CallbackContext context)
@@ -76,7 +77,8 @@ public class CrouchAbility : BaseAbility
         if (!isPermitted 
             || !linkedPhysics.isGrounded
             || linkedStateMachine.currentState == PlayerStates.State.Dash
-            || linkedStateMachine.currentState == PlayerStates.State.Climb) 
+            || linkedStateMachine.currentState == PlayerStates.State.Climb
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) 
             return;
 
         shouldStop = false;

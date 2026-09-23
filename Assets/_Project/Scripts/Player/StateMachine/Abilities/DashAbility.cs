@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,6 +33,8 @@ public class DashAbility : BaseAbility
     public override void EnterAbility()
     {
         linkedPhysics.didWallJump = false;
+        //player.playerStats.DisableDamage();
+        player.playerStats.DisableStatsCollider();
     }
 
     public override void ProcessAbility()
@@ -64,11 +65,15 @@ public class DashAbility : BaseAbility
     {
         linkedPhysics.EnableGravity();
         linkedPhysics.ResetVelocity();
+        //player.playerStats.EnableDamage();
+        player.playerStats.EnableStatsCollider();
     }
 
     private void TryToDash(InputAction.CallbackContext context)
     {
-        if (!isPermitted) return;
+        if (!isPermitted
+            || linkedStateMachine.currentState == PlayerStates.State.Knockback) 
+            return;
         if (linkedStateMachine.currentState == PlayerStates.State.Dash
             || linkedPhysics.isWallDetected
             || !CanDashFromCrouch() 

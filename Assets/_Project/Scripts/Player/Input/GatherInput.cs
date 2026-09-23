@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -32,5 +31,10 @@ public class GatherInput : MonoBehaviour
     {
         playerMap.Disable();
         uiMap.Disable();
+    }
+
+    public void DisablePlayerMap()
+    {
+        playerMap.Disable();
     }
 }

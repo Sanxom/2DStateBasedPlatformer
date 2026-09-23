@@ -40,12 +40,16 @@ public class DashAbility : BaseAbility
     {
         dashTimer -= Time.deltaTime;
         if (linkedPhysics.isWallDetected || linkedPhysics.isSmallWallDetected)
+        {
             dashTimer = -1f;
+        }
 
         if (dashTimer <= 0f)
         {
             if (linkedPhysics.isGrounded)
+            {
                 linkedStateMachine.ChangeState(PlayerStates.State.Idle);
+            }
             else
                 linkedStateMachine.ChangeState(PlayerStates.State.Jump);
         }
@@ -65,11 +69,14 @@ public class DashAbility : BaseAbility
     private void TryToDash(InputAction.CallbackContext context)
     {
         if (!isPermitted) return;
-        if (linkedStateMachine.currentState == PlayerStates.State.Dash 
+        if (linkedStateMachine.currentState == PlayerStates.State.Dash
             || linkedPhysics.isWallDetected
-            || !CanDashFromCrouch()) return;
+            || !CanDashFromCrouch() 
+            || !linkedPhysics.hasDashReset) 
+            return;
 
         linkedStateMachine.ChangeState(PlayerStates.State.Dash);
+        linkedPhysics.hasDashReset = false;
         linkedPhysics.DisableGravity();
         linkedPhysics.ResetVelocity();
 

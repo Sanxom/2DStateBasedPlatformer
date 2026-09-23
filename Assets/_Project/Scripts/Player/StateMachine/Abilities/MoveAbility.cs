@@ -14,6 +14,14 @@ public class MoveAbility : BaseAbility
         runParameterID = Animator.StringToHash(RUN_ANIM_PARAMETER_NAME);
     }
 
+    public override void EnterAbility()
+    {
+        player.Flip();
+
+        if (linkedPhysics.isGrounded)
+            linkedPhysics.hasDashReset = true;
+    }
+
     public override void ProcessAbility()
     {
         if (linkedPhysics.isGrounded && linkedInput.horizontalInput == 0)

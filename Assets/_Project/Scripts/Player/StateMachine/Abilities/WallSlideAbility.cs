@@ -19,6 +19,7 @@ public class WallSlideAbility : BaseAbility
     {
         linkedPhysics.rb.linearVelocity = Vector2.zero;
         linkedPhysics.didWallJump = false;
+        linkedPhysics.hasDashReset = true;
     }
 
     public override void ProcessAbility()

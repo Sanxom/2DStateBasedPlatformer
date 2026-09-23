@@ -16,6 +16,7 @@ public class IdleAbility : BaseAbility
     {
         linkedPhysics.rb.linearVelocityX = 0f;
         linkedPhysics.didWallJump = false;
+        linkedPhysics.hasDashReset = true;
     }
 
     public override void ProcessAbility()

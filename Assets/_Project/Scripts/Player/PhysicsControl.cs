@@ -17,6 +17,7 @@ public class PhysicsControl : MonoBehaviour
     [Header("Wall")]
     public bool isWallDetected;
     public bool isWallDetectedUpper;
+    public bool isWallDetectedLower;
     public bool isSmallWallDetected;
     public bool didWallJump;
     [SerializeField] private float wallRayLength;
@@ -36,15 +37,37 @@ public class PhysicsControl : MonoBehaviour
     private RaycastHit2D hitInfoCeilingRight;
 
     [Header("Dash")]
+    public bool hasDashReset;
     private float gravityDefault;
+
+    [Header("CoyoteTime")]
+    public float coyoteTimer;
+    [SerializeField] private float coyoteSetTime;
 
     [Header("Colliders")]
     [SerializeField] private Collider2D standCollider;
     [SerializeField] private Collider2D crouchCollider;
 
+    private void Awake()
+    {
+        coyoteTimer = coyoteSetTime;
+    }
+
     private void Start()
     {
         gravityDefault = rb.gravityScale;
+    }
+
+    private void Update()
+    {
+        if (!isGrounded)
+        {
+            coyoteTimer -= Time.deltaTime;
+        }
+        else
+        {
+            coyoteTimer = coyoteSetTime;
+        }
     }
 
     private void FixedUpdate()
@@ -52,6 +75,7 @@ public class PhysicsControl : MonoBehaviour
         isGrounded = CheckGround();
         isSmallWallDetected = CheckSmallWall();
         isWallDetected = CheckWall();
+        isWallDetectedUpper = CheckWallUpper();
         isCeilingDetected = CheckCeiling();
     }
 
@@ -61,7 +85,7 @@ public class PhysicsControl : MonoBehaviour
         Debug.DrawRay(rightGroundPoint.position, new Vector3(0f, -groundRayLength, 0f), Color.red);
 
         Debug.DrawRay(wallCheckPointUpper.position, new(wallRayLength, 0f, 0f), Color.red);
-        //Debug.DrawRay(wallCheckPointLower.position, new(wallRayLength, 0f, 0f), Color.red);
+        Debug.DrawRay(wallCheckPointLower.position, new(wallRayLength, 0f, 0f), Color.red);
 
         Debug.DrawRay(smallWallCheckPoint.position, new(wallRayLength, 0f, 0f), Color.red);
 
@@ -97,11 +121,19 @@ public class PhysicsControl : MonoBehaviour
     private bool CheckWall()
     {
         hitInfoWallUpper = Physics2D.Raycast(wallCheckPointUpper.position, transform.right, wallRayLength, whatToDetect);
-        //hitInfoWallLower = Physics2D.Raycast(wallCheckPointLower.position, transform.right, wallRayLength, whatToDetect);
+        hitInfoWallLower = Physics2D.Raycast(wallCheckPointLower.position, transform.right, wallRayLength, whatToDetect);
 
         isWallDetectedUpper = hitInfoWallUpper;
+        isWallDetectedLower = hitInfoWallLower;
 
-        return hitInfoWallUpper/* || hitInfoWallLower*/;
+        return hitInfoWallUpper || hitInfoWallLower;
+    }
+
+    private bool CheckWallUpper()
+    {
+        hitInfoWallUpper = Physics2D.Raycast(wallCheckPointUpper.position, transform.right, wallRayLength, whatToDetect);
+        isWallDetectedUpper = hitInfoWallUpper;
+        return hitInfoWallUpper;
     }
 
     private bool CheckSmallWall()
@@ -117,5 +149,10 @@ public class PhysicsControl : MonoBehaviour
         hitInfoCeilingRight = Physics2D.Raycast(ceilingCheckPointRight.position, transform.up, ceilingRayLength, whatToDetect);
 
         return hitInfoCeilingLeft || hitInfoCeilingRight;
+    }
+
+    public float GetGravity()
+    {
+        return gravityDefault;
     }
 }

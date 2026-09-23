@@ -37,6 +37,11 @@ public class ClimbAbility : BaseAbility
         minClimbTime = setMinClimbTime;
     }
 
+    public override void EnterAbility()
+    {
+        linkedPhysics.hasDashReset = true;
+    }
+
     public override void ProcessAbility()
     {
         if (isClimbing)

@@ -1,10 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class WallJumpAbility : BaseAbility
+public class WallJumpAbility : JumpAbility
 {
-    public InputActionReference wallJumpActionRef;
-
     [SerializeField] private Vector2 wallJumpForce;
     [SerializeField] private float wallJumpMaxTime;
 
@@ -13,12 +11,12 @@ public class WallJumpAbility : BaseAbility
 
     private void OnEnable()
     {
-        wallJumpActionRef.action.performed += TryToWallJump;
+        jumpActionRef.action.performed += TryToWallJump;
     }
 
     private void OnDisable()
     {
-        wallJumpActionRef.action.performed -= TryToWallJump;
+        jumpActionRef.action.performed -= TryToWallJump;
     }
 
     protected override void Init()
@@ -30,12 +28,22 @@ public class WallJumpAbility : BaseAbility
     public override void EnterAbility()
     {
         linkedPhysics.didWallJump = false;
+        linkedPhysics.hasDashReset = true;
     }
 
     public override void ProcessAbility()
     {
         wallJumpTimer -= Time.deltaTime;
         wallJumpMinTime -= Time.deltaTime;
+
+        if (wallJumpMinTime < 0f && linkedPhysics.isGrounded)
+        {
+            if (linkedInput.horizontalInput != 0f)
+                linkedStateMachine.ChangeState(PlayerStates.State.Run);
+            else
+                linkedStateMachine.ChangeState(PlayerStates.State.Idle);
+            return;
+        }
 
         if (wallJumpTimer <= 0f)
         {
@@ -73,11 +81,14 @@ public class WallJumpAbility : BaseAbility
             linkedStateMachine.ChangeState(PlayerStates.State.WallJump);
             wallJumpTimer = wallJumpMaxTime;
             wallJumpMinTime = 0.15f;
+            numJumps = maxNumJumps;
+            canActivateAdditionalJumps = true;
             player.ForceFlip();
             if (player.isFacingRight)
                 linkedPhysics.rb.linearVelocity = new(wallJumpForce.x, wallJumpForce.y);
             else
                 linkedPhysics.rb.linearVelocity = new(-wallJumpForce.x, wallJumpForce.y);
+            numJumps--;
         }
     }
 }

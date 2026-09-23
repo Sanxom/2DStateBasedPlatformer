@@ -6,7 +6,9 @@ public class GatherInput : MonoBehaviour
 {
     public PlayerInput playerInput;
     public InputActionReference moveActionRef;
+    public InputActionReference climbActionRef;
     [HideInInspector] public float horizontalInput;
+    [HideInInspector] public float verticalInput;
 
     private InputActionMap playerMap;
     private InputActionMap uiMap;
@@ -23,6 +25,7 @@ public class GatherInput : MonoBehaviour
     private void Update()
     {
         horizontalInput = moveActionRef.action.ReadValue<float>();
+        verticalInput = climbActionRef.action.ReadValue<float>();
     }
 
     private void OnDisable()

@@ -15,6 +15,7 @@ public class IdleAbility : BaseAbility
     public override void EnterAbility()
     {
         linkedPhysics.rb.linearVelocityX = 0f;
+        linkedPhysics.didWallJump = false;
     }
 
     public override void ProcessAbility()

@@ -13,7 +13,7 @@ public class PlayerStates
         WallSlide,
         Dash,
         Crouch,
-        Ladders,
+        Climb,
         None
     }
 }

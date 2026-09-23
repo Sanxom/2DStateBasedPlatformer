@@ -57,4 +57,10 @@ public class Player : MonoBehaviour
             isFacingRight = !isFacingRight;
         }
     }
+
+    public void ForceFlip()
+    {
+        transform.Rotate(0f, 180f, 0f);
+        isFacingRight = !isFacingRight;
+    }
 }
